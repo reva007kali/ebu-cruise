@@ -15,7 +15,7 @@ ob_start();
 
             <div
                 class="flex flex-col justify-end md:justify-end relative overflow-hidden p-5 md:p-12 mt-8 bg-cover rounded-xl bg-center min-h-80 md:min-h-[83vh] mb-4">
-                <img class="absolute object-cover md:object-center h-full top-0 left-0"
+                <img class="w-full absolute object-cover md:object-center h-full top-0 left-0"
                     src="public/img/trons/services-3.jpg" alt="">
 
                 <!-- gradient -->

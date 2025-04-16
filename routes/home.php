@@ -11,7 +11,7 @@ ob_start();
 
         <!-- hero slide 1 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
-            <img class="absolute object-cover md:object-center object-[90%] h-full top-0 left-0" src="public/img/trons/slide1.jpg" alt="">
+            <img class="w-full absolute object-cover md:object-center object-[90%] h-full top-0 left-0" src="public/img/trons/slide1.jpg" alt="">
             <div
             class="flex items-center relative overflow-hidden  lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
 
@@ -49,7 +49,7 @@ ob_start();
 
         <!-- hero slide 2 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
-        <img class="absolute top-0 left-0 h-full object-cover md:object-center object-[70%]" src="public/img/trons/slide2.jpg" alt="">
+        <img class="w-full absolute top-0 left-0 h-full object-cover md:object-center object-[70%]" src="public/img/trons/slide2.jpg" alt="">
             <div
                 class="flex items-center relative overflow-hidden lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
 

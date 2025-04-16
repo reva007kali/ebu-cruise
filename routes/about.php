@@ -11,7 +11,7 @@ ob_start();
 
         <!-- hero slide 1 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
-            <img class="absolute object-cover md:object-center h-full top-0 left-0"
+            <img class="w-full absolute object-cover md:object-center h-full top-0 left-0"
                 src="public/img/trons/about-2.png" alt="">
             <div
                 class="flex items-center relative overflow-hidden bg-cover bg-center lg:p-12 p-6 min-h-[40vh] lg:min-h-[84vh]">
