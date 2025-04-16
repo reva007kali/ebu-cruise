@@ -1,0 +1,21 @@
+.services-arrow {
+    transition: 200ms ease-in-out;
+}
+.services-card:hover .services-arrow {
+    rotate: 90deg;
+}
+.services-card-bg {
+    transition:200ms ease-in-out;
+}
+.services-card:hover .services-card-bg {
+    transform: scale(1.2);
+}
+.services-card {
+    transition: transform 0.3s ease-in-out;
+}
+.logo-equinox {
+    text-shadow: 1px 1px 10px black;
+}
+.text-shadow {
+    text-shadow:1px 1px 10px black;
+}
