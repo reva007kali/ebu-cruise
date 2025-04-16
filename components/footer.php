@@ -1,7 +1,7 @@
 <footer>
     <!-- component -->
     <div>
-        <img class="rounded-xl mx-auto max-w-[90vw] mb-6" src="img/assets/aware-banner2.png" alt="">
+        <img class="rounded-xl mx-auto max-w-[90vw] mb-6" src="public/img/assets/aware-banner2.png" alt="">
     </div>
     <footer class="relative bg-[url(/public/img/offices/bali1.jpg)] bg-cover bg-no-repeat bg-center">
         <div class="absolute top-0 left-0 w-full h-full bg-primary opacity-[.8]"></div>

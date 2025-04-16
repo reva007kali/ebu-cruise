@@ -14,6 +14,9 @@ $routes = [
     '/' => 'routes/home.php',
     '/home' => 'routes/home.php',
     '/about' => 'routes/about.php',
+    '/crewing-services' => 'routes/crewing-services.php',
+    '/contact' => 'routes/contact.php',
+    '/ambassador' => 'routes/ambassador.php',
 ];
 
 // Routing logic
