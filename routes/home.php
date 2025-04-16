@@ -11,8 +11,9 @@ ob_start();
 
         <!-- hero slide 1 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
+            <img class="absolute object-cover md:object-center object-[90%] h-full top-0 left-0" src="public/img/trons/slide1.jpg" alt="">
             <div
-                class="flex items-center relative overflow-hidden bg-[url('/public/img/jumbo-trons/slide1.jpg')] bg-cover md:bg-center bg-[100%] lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
+            class="flex items-center relative overflow-hidden  lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
 
                 <!-- gradient -->
                 <div class="w-full h-full absolute top-0 left-0 bg-gradient-to-br from-primary z-0"></div>
@@ -48,8 +49,9 @@ ob_start();
 
         <!-- hero slide 2 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
+        <img class="absolute top-0 left-0 h-full object-cover md:object-center object-[70%]" src="public/img/trons/slide2.jpg" alt="">
             <div
-                class="flex items-center relative overflow-hidden bg-[url('/public/img/jumbo-trons/slide2.jpg')] bg-cover md:bg-center bg-[60%] lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
+                class="flex items-center relative overflow-hidden lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
 
                 <!-- gradient -->
                 <!-- <div class="w-full h-full absolute top-0 left-0 bg-gradient-to-br from-primary z-0"></div> -->
@@ -70,7 +72,7 @@ ob_start();
                     </div>
 
                     <div class="flex items-center space-x-4 py-4 text-sm md:text-lg relative z-10">
-                        <a href="hariri" class="px-3 py-2 bg-third text-white rounded-3xl hover:bg-secondary">
+                        <a href="ambassador" class="px-3 py-2 bg-third text-white rounded-3xl hover:bg-secondary">
                             About Mr.Hariri Sulaiman
                         </a>
                     </div>
@@ -292,7 +294,7 @@ ob_start();
             </div>
 
             <!-- visa card -->
-            <div onclick="window.location.href='crewing-services#document'"
+            <div onclick="window.location.href='crewing-services#visa'"
                 class="services-card swiper-slide bg-secondary rounded-xl cursor-pointer">
                 <div class=" rounded-2xl h-[520px] flex flex-col justify-center items-center overflow-hidden">
                     <div class="h-2/3 w-full p-6 space-y-5">
@@ -422,7 +424,7 @@ ob_start();
                             </button>
                         </div>
                         <div class="lg:w-1/2">
-                            <img src="img/services/sea.jpg" alt="">
+                            <img src="/public/img/services/sea.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -431,7 +433,7 @@ ob_start();
 
         </div>
         <div class="md:w-1/3 flex items-center justify-center">
-            <img class="md:w-[350px]" src="img/services/svp.png" alt="">
+            <img class="md:w-[350px]" src="public/img/services/svp.png" alt="">
         </div>
     </div>
 </div>
@@ -505,13 +507,14 @@ ob_start();
             <div class="swiper-slide relative ">
                 <div
                     class="bg-primary flex flex-col gap-y-2 items-center text-center p-6 rounded-xl shadow-md shadow-slate-600 transition-all duration-300 ease-linear">
-                    <img class="size-40 object-cover bg-white rounded-[50%]" src="img/testimoni/hariri.png" alt="">
+                    <img class="size-40 object-cover bg-white rounded-[50%]" src="public/img/testimoni/hariri.png"
+                        alt="">
                     <h1 class="font-bold text-third text-3xl">Hariri Sulaiman</h1>
                     <p class="text-secondary font-semibold">Second Officer</p>
                     <div x-data="{ expanded: false }" class="max-w-lg p-4 text-white rounded-lg">
                         <p>
-                            {{ Str::limit('Equinox Bahari Utama provided an exceptional service in handling my seafarer
-                            visa process, making everything smooth and hassle-free.', 100, '...') }}
+                            Equinox Bahari Utama provided an exceptional service in handling my seafarer
+                            visa process, making everything smooth and hassle-free.
                             <span x-show="expanded" x-transition:enter.duration.500ms x-transition:leave.duration.400ms>
                                 Equinox Bahari Utama guided me every step of the way, ensuring my documents were in
                                 order and the process was stress-free. Highly recommended!
@@ -524,7 +527,7 @@ ob_start();
                             <span class="text-slate-400" x-show="expanded">Read Less</span>
                         </button>
                     </div>
-                    <img class="w-40" src="img/brands-logo/royal-logo-white.png" alt="">
+                    <img class="w-40" src="public/img/brands-logo/royal-logo-white.png" alt="">
                 </div>
             </div>
 
@@ -532,15 +535,15 @@ ob_start();
             <div class="swiper-slide relative ">
                 <div
                     class="bg-primary flex flex-col gap-y-2 items-center text-center p-6 rounded-xl shadow-md shadow-slate-600 transition-all duration-300 ease-linear">
-                    <img class="size-40 object-cover bg-white rounded-[50%]" src="img/testimoni/2.jpg" alt="">
+                    <img class="size-40 object-cover bg-white rounded-[50%]" src="public/img/testimoni/2.jpg" alt="">
                     <h1 class="font-bold text-third text-3xl">Ida Bagus Kerta Adi</h1>
                     <p class="text-secondary font-semibold">Galley Steward</p>
                     <div x-data="{ expanded: false }" class="max-w-lg p-4 text-white rounded-lg">
                         <p>
-                            {{ Str::limit('"EBU truly goes above and beyond. The staff was responsive, helpful, and made
-                            sure I had all my', 100, '...') }}
+                            EBU truly goes above and beyond. The staff was responsive, helpful, and made
+                            sure I had all my documents in order.
                             <span x-show="expanded" x-transition:enter.duration.500ms x-transition:leave.duration.400ms>
-                                documents in order. I didn’t even have to worry about the visa interview—they prepped me
+                                I didn’t even have to worry about the visa interview—they prepped me
                                 well. Definitely recommended for any crew joining the cruise line!"
                             </span>
                         </p>
@@ -551,7 +554,7 @@ ob_start();
                             <span class="text-slate-400" x-show="expanded">Read Less</span>
                         </button>
                     </div>
-                    <img class="w-40" src="img/brands-logo/royal-logo-white.png" alt="">
+                    <img class="w-40" src="public/img/brands-logo/royal-logo-white.png" alt="">
                 </div>
             </div>
 
@@ -559,13 +562,13 @@ ob_start();
             <div class="swiper-slide relative ">
                 <div
                     class="bg-primary flex flex-col gap-y-2 items-center text-center p-6 rounded-xl shadow-md shadow-slate-600 transition-all duration-300 ease-linear">
-                    <img class="size-40 object-cover bg-white rounded-[50%]" src="img/testimoni/3.jpg" alt="">
+                    <img class="size-40 object-cover bg-white rounded-[50%]" src="public/img/testimoni/3.jpg" alt="">
                     <h1 class="font-bold text-third text-3xl">Kadek Sana Susila</h1>
                     <p class="text-secondary font-semibold">Utility Bar</p>
                     <div x-data="{ expanded: false }" class="max-w-lg p-4 text-white rounded-lg">
                         <p>
-                            {{ Str::limit('“ Big Thanks untuk Equinox Bahari Utama and all team for helping me to step
-                            on this amazing places and make my dream come true ,', 100, '') }}
+                            Big Thanks untuk Equinox Bahari Utama and all team for helping me to step
+                            on this amazing places and make my dream come true
                             <span x-show="expanded" x-transition:enter.duration.500ms x-transition:leave.duration.400ms>
                                 we hope Equinox Bahari utama always success in the future to help all of us who want to
                                 get a best experience and beautifull journey “
@@ -578,7 +581,7 @@ ob_start();
                             <span class="text-slate-400" x-show="expanded">Read Less</span>
                         </button>
                     </div>
-                    <img class="w-40" src="img/brands-logo/celebrity-logo-white.png" alt="">
+                    <img class="w-40" src="public/img/brands-logo/celebrity-logo-white.png" alt="">
                 </div>
             </div>
 
@@ -600,22 +603,22 @@ ob_start();
             <div class="swiper-wrapper mb-10">
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/jakarta-office.png" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/jakarta-office.png" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/jkt.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/jkt.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/jkt2.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/jkt2.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/jakarta3.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/jakarta3.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -663,22 +666,22 @@ ob_start();
             <div class="swiper-wrapper mb-10">
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/bali1.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/bali1.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/bali2.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/bali2.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/bali3.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/bali3.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
                 <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
-                    <img class="h-full object-cover" src="img/offices/bali4.jpg" alt="">
+                    <img class="h-full object-cover" src="public/img/offices/bali4.jpg" alt="">
                 </div>
             </div>
         </div>

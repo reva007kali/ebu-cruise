@@ -10,8 +10,10 @@ ob_start();
 
         <!-- hero slide 2 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
+            <img class="absolute object-cover md:object-center h-full top-0 left-0" src="/public/img/assets/vision.jpg"
+                alt="">
             <div
-                class="flex items-end relative overflow-hidden bg-[url('/public/img/assets/vision.jpg')] bg-cover md:bg-center bg-[60%] lg:p-12 p-6 min-h-[55vh] lg:min-h-[84vh]">
+                class="flex items-end relative overflow-hidden bg-cover md:bg-center bg-[60%] lg:p-12 p-6 min-h-[35vh] lg:min-h-[84vh]">
 
                 <!-- gradient -->
                 <div>

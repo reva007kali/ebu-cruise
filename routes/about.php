@@ -11,8 +11,10 @@ ob_start();
 
         <!-- hero slide 1 -->
         <div class="swiper-slide relative rounded-xl overflow-hidden">
+            <img class="absolute object-cover md:object-center h-full top-0 left-0"
+                src="public/img/trons/about-2.png" alt="">
             <div
-                class="flex items-center relative overflow-hidden bg-[url('/public/img/jumbo-trons/about-2.png')] bg-cover bg-center lg:p-12 p-6 min-h-[40vh] lg:min-h-[84vh]">
+                class="flex items-center relative overflow-hidden bg-cover bg-center lg:p-12 p-6 min-h-[40vh] lg:min-h-[84vh]">
 
                 <!-- gradient -->
                 <div>
@@ -30,13 +32,15 @@ ob_start();
 
 
         <!-- hero slide 2 -->
-        <div class="swiper-slide relative rounded-xl overflow-hidden">
+        <!-- <div class="swiper-slide relative rounded-xl overflow-hidden">
+            <img class="absolute object-cover md:object-center h-full top-0 left-0"
+            src="public/img/trons/about-1.jpg" alt="">
             <div
-                class="flex items-end relative overflow-hidden bg-[url('/public/img/jumbo-trons/about-1.jpg')] bg-cover bg-center lg:p-20 p-2 min-h-[40vh] lg:min-h-[84vh]">
+                class="flex items-end relative overflow-hidden bg-cover bg-center lg:p-20 p-2 min-h-[40vh] lg:min-h-[84vh]">
 
                 <div>
                     <div class="relative z-10">
-                        <h1 class="font-extrabold text-xl md:text-7xl leading-5 drop-shadow-md">
+                        <h1 class="font-extrabold text-xl md:text-7xl drop-shadow-md">
                             <span class="text-white">EQUINOX</span> <br>
                             <span class="text-third">BAHARI</span><br>
                             <span class="text-secondary">UTAMA</span><br>
@@ -45,7 +49,7 @@ ob_start();
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -111,7 +115,7 @@ ob_start();
 <!-- about equinox bahari utama -->
 
 <!-- equinox shipping group -->
-<div class="relative bg-primary py-6
+<div class="relative bg-primary p-6
     ">
     <h1 class="text-3xl md:text-5xl md:my-10 font-extrabold text-white mb-4 text-center uppercase mx-4">Equinox
         Shipping Group</h1>
@@ -284,8 +288,8 @@ ob_start();
         <!-- leader card -->
         <div
             class="bod-card bg-white relative flex items-end rounded-xl overflow-hidden md:w-72 box-shadow-sm w-64 h-96 m-auto">
-            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover" src="public/img/team/toar_.png"
-                alt="">
+            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover"
+                src="public/img/team/toar_.png" alt="">
             <div class="w-full h-1/2 absolute left-0 bottom-0 bg-gradient-to-t from-primary z-0"></div>
             <div class="relative text-white p-4">
                 <h1 class="text-xl font-bold">Toar B Sumanti</h1>
@@ -296,8 +300,8 @@ ob_start();
 
         <!--  leader card -->
         <div class="bod-card relative flex items-end rounded-xl overflow-hidden md:w-72 box-shadow-sm w-64 h-96 m-auto">
-            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover" src="public/img/team/raissa.png"
-                alt="">
+            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover"
+                src="public/img/team/raissa.png" alt="">
             <div class="w-full h-1/2 absolute left-0 bottom-0 bg-gradient-to-t from-primary z-0"></div>
             <div class="relative text-white p-4">
                 <h1 class="text-xl font-bold">Raissa Humaira</h1>
@@ -308,8 +312,8 @@ ob_start();
 
         <!-- leader card -->
         <div class="bod-card relative flex items-end rounded-xl overflow-hidden md:w-72 box-shadow-sm w-64 h-96 m-auto">
-            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover" src="public/img/team/agni.png"
-                alt="">
+            <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover"
+                src="public/img/team/agni.png" alt="">
             <div class="w-full h-1/2 absolute left-0 bottom-0 bg-gradient-to-t from-primary z-0"></div>
             <div class="relative text-white p-4">
                 <h1 class="text-xl font-bold">Agni Aditya</h1>

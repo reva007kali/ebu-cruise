@@ -5,7 +5,7 @@ $title = 'About us';
 ob_start();
 ?>
 <div
-    class="md:flex md:items-end lg:max-w-[90vw] mx-auto mt-24 rounded-xl h-80 md:min-h-[80vh] bg-[url('/public/img/team/contac.jpg')] bg-cover bg-center">
+    class="md:flex md:items-end lg:max-w-[90vw] md:mx-auto mx-6 mt-24 rounded-xl h-50 md:min-h-[80vh] bg-[url('/public/img/team/contac.jpg')] bg-cover bg-center">
     <div class="p-4 md:p-12">
         <h1 class="font-extrabold text-3xl md:text-7xl leading-7 text-shadow drop-shadow-xl shadow-black">
             <span class="text-white">CONTACT</span>
@@ -16,7 +16,7 @@ ob_start();
 <div class="container mx-auto px-6 py-16">
     <!-- Contact Information -->
     <div class="text-center mb-12">
-        <h1 class="text-5xl font-bold text-primary">Get in touch with us for any inquiries or assistance.</h1>
+        <h1 class="md:text-5xl text-2xl font-bold text-primary">Get in touch with us for any inquiries or assistance.</h1>
     </div>
 
     <div class="grid md:grid-cols-2 gap-1">

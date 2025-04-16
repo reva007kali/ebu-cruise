@@ -10,10 +10,13 @@ ob_start();
 
 
         <!-- slide card white card -->
-        <div class="swiper-slide relative">
+        <div class="swiper-slide relative overflow-hidden">
+
 
             <div
-                class="flex flex-col justify-end md:justify-end relative overflow-hidden p-5 md:p-12 mt-8 bg-[url('/public/img/jumbo-trons/services-3.jpg')] bg-cover rounded-xl bg-center min-h-80 md:min-h-[83vh]">
+                class="flex flex-col justify-end md:justify-end relative overflow-hidden p-5 md:p-12 mt-8 bg-cover rounded-xl bg-center min-h-80 md:min-h-[83vh] mb-4">
+                <img class="absolute object-cover md:object-center h-full top-0 left-0"
+                    src="public/img/trons/services-3.jpg" alt="">
 
                 <!-- gradient -->
                 <div class="relative z-10">
@@ -108,19 +111,21 @@ ob_start();
     </div>
     <div class="md:w-1/2 overflow-hidden shadow-lg rounded-xl md:min-h-[600px]">
         <div class="relative md:h-full md:w-full h-60">
-            <img class="absolute top-0 left-0 object-cover w-full h-[100%]" src="public/img/services/recruitment.jpg" alt="">
+            <img class="absolute top-0 left-0 object-cover w-full h-[100%]" src="public/img/services/recruitment.jpg"
+                alt="">
         </div>
     </div>
 </div>
 <!-- recruitment services -->
 
 <!-- Document services -->
-<div id="document"
+<div id="visa"
     class="md:container md:mx-auto md:flex md:flex-row flex flex-col-reverse mx-6 md:my-5 gap-x-5 gap-y-4 mt-4">
 
     <div class="md:w-1/2 overflow-hidden shadow-lg rounded-xl md:min-h-[600px]">
         <div class="relative md:h-full md:w-full h-60">
-            <img class="absolute top-0 left-0 object-cover w-full h-[100%]" src="public/img/services/document.jpg" alt="">
+            <img class="absolute top-0 left-0 object-cover w-full h-[100%]" src="public/img/services/document.jpg"
+                alt="">
         </div>
     </div>
     <div class="md:w-1/2 mx-auto md:p-10 p-4 bg-white shadow-lg rounded-lg md:min-h-[600px]">
@@ -169,8 +174,8 @@ ob_start();
 
     <div class="md:w-1/2 overflow-hidden shadow-lg rounded-xl mb-4 md:min-h-[600px]">
         <div class="relative md:h-full md:w-full h-60">
-            <img class="absolute top-0 left-0 object-cover object-right w-full h-[100%]" src="public/img/services/deploy.jpg"
-                alt="">
+            <img class="absolute top-0 left-0 object-cover object-right w-full h-[100%]"
+                src="public/img/services/deploy.jpg" alt="">
         </div>
     </div>
     <div class="md:w-1/2 mx-auto p-6 bg-primary shadow-lg rounded-lg mb-4 md:min-h-[600px]">

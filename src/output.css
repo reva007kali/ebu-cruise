@@ -1086,9 +1086,6 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -1412,9 +1409,6 @@
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
-  .mb-3 {
-    margin-bottom: calc(var(--spacing) * 3);
-  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
@@ -1546,6 +1540,9 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
@@ -1590,6 +1587,9 @@
   }
   .min-h-80 {
     min-height: calc(var(--spacing) * 80);
+  }
+  .min-h-\[35vh\] {
+    min-height: 35vh;
   }
   .min-h-\[40vh\] {
     min-height: 40vh;
@@ -2400,12 +2400,6 @@
   .bg-\[url\(\'\/public\/img\/jumbo-trons\/services-3\.jpg\'\)\] {
     background-image: url('/public/img/jumbo-trons/services-3.jpg');
   }
-  .bg-\[url\(\'\/public\/img\/jumbo-trons\/slide1\.jpg\'\)\] {
-    background-image: url('/public/img/jumbo-trons/slide1.jpg');
-  }
-  .bg-\[url\(\'\/public\/img\/jumbo-trons\/slide2\.jpg\'\)\] {
-    background-image: url('/public/img/jumbo-trons/slide2.jpg');
-  }
   .bg-\[url\(\'\/public\/img\/offices\/jakarta3\.jpg\'\)\] {
     background-image: url('/public/img/offices/jakarta3.jpg');
   }
@@ -2430,101 +2424,11 @@
   .bg-\[url\(\'\/public\/img\/ships\/ship2\.jpg\'\)\] {
     background-image: url('/public/img/ships/ship2.jpg');
   }
-  .bg-\[url\(\'\/public\/img\/ships\/slide1\.jpg\'\)\] {
-    background-image: url('/public/img/ships/slide1.jpg');
-  }
   .bg-\[url\(\'\/public\/img\/team\/contac\.jpg\'\)\] {
     background-image: url('/public/img/team/contac.jpg');
   }
-  .bg-\[url\(\'\/public\/public\/img\/crew\/2\.jpg\'\)\] {
-    background-image: url('/public/public/img/crew/2.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/crew\/marine\.jpg\'\)\] {
-    background-image: url('/public/public/img/crew/marine.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/department\/1\.png\'\)\] {
-    background-image: url('/public/public/img/department/1.png');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/department\/3\.png\'\)\] {
-    background-image: url('/public/public/img/department/3.png');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/department\/4\.png\'\)\] {
-    background-image: url('/public/public/img/department/4.png');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/department\/5\.png\'\)\] {
-    background-image: url('/public/public/img/department/5.png');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/jumbo-trons\/slide1\.jpg\'\)\] {
-    background-image: url('/public/public/img/jumbo-trons/slide1.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/jumbo-trons\/slide2\.jpg\'\)\] {
-    background-image: url('/public/public/img/jumbo-trons/slide2.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/services\/deployment\.jpg\'\)\] {
-    background-image: url('/public/public/img/services/deployment.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/services\/document\.jpg\'\)\] {
-    background-image: url('/public/public/img/services/document.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/services\/recruitment\.jpg\'\)\] {
-    background-image: url('/public/public/img/services/recruitment.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/services\/visa\.png\'\)\] {
-    background-image: url('/public/public/img/services/visa.png');
-  }
-  .bg-\[url\(\'\/public\/public\/img\/ships\/ship2\.jpg\'\)\] {
-    background-image: url('/public/public/img/ships/ship2.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/crew\/2\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/crew/2.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/crew\/marine\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/crew/marine.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/department\/1\.png\'\)\] {
-    background-image: url('/public/public/public/public/public/img/department/1.png');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/department\/3\.png\'\)\] {
-    background-image: url('/public/public/public/public/public/img/department/3.png');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/department\/4\.png\'\)\] {
-    background-image: url('/public/public/public/public/public/img/department/4.png');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/department\/5\.png\'\)\] {
-    background-image: url('/public/public/public/public/public/img/department/5.png');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/jumbo-trons\/slide1\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/jumbo-trons/slide1.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/jumbo-trons\/slide2\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/jumbo-trons/slide2.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/services\/deployment\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/services/deployment.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/services\/document\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/services/document.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/services\/recruitment\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/services/recruitment.jpg');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/services\/visa\.png\'\)\] {
-    background-image: url('/public/public/public/public/public/img/services/visa.png');
-  }
-  .bg-\[url\(\'\/public\/public\/public\/public\/public\/img\/ships\/ship2\.jpg\'\)\] {
-    background-image: url('/public/public/public/public/public/img/ships/ship2.jpg');
-  }
-  .bg-\[url\(\'public\/img\/jumbo-trons\/slide1\.jpg\'\)\] {
-    background-image: url('public/img/jumbo-trons/slide1.jpg');
-  }
-  .bg-\[url\(\'public\/img\/jumbo\/slide1\.jpg\'\)\] {
-    background-image: url('public/img/jumbo/slide1.jpg');
-  }
-  .bg-\[url\(\'public\/img\/ships\/slide-1\.jpg\'\)\] {
-    background-image: url('public/img/ships/slide-1.jpg');
-  }
-  .bg-\[url\(\'public\/img\/ships\/slide1\.jpg\'\)\] {
-    background-image: url('public/img/ships/slide1.jpg');
+  .bg-\[url\(\'\/public\/img\/trons\/about-2\.png\'\)\] {
+    background-image: url('/public/img/trons/about-2.png');
   }
   .bg-\[url\(\/public\/img\/offices\/bali1\.jpg\)\] {
     background-image: url(/public/img/offices/bali1.jpg);
@@ -2561,9 +2465,6 @@
   }
   .bg-\[60\%\] {
     background-position: 60%;
-  }
-  .bg-\[100\%\] {
-    background-position: 100%;
   }
   .bg-bottom {
     background-position: bottom;
@@ -2641,6 +2542,15 @@
   }
   .object-cover {
     object-fit: cover;
+  }
+  .object-\[70\%\] {
+    object-position: 70%;
+  }
+  .object-\[80\%\] {
+    object-position: 80%;
+  }
+  .object-\[90\%\] {
+    object-position: 90%;
   }
   .object-center {
     object-position: center;
@@ -2861,10 +2771,6 @@
     .dark .datatable-wrapper .datatable-bottom & {
       color: var(--color-gray-400);
     }
-  }
-  .leading-5 {
-    --tw-leading: calc(var(--spacing) * 5);
-    line-height: calc(var(--spacing) * 5);
   }
   .leading-6 {
     --tw-leading: calc(var(--spacing) * 6);
@@ -3572,6 +3478,11 @@
   .md\:bg-center {
     @media (width >= 48rem) {
       background-position: center;
+    }
+  }
+  .md\:object-center {
+    @media (width >= 48rem) {
+      object-position: center;
     }
   }
   .md\:p-0 {
