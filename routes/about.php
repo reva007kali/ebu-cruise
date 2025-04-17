@@ -132,7 +132,7 @@ ob_start();
                             Ship management services
                             <span class="block font-bold text-primary text-2xl">Equinox</span>
                         </h2>
-                        <img class="w-20" src="img/logo/logo-PPE.png" alt="">
+                        <img class="w-20" src="public/img/logo/logo-ppe.png" alt="">
                     </div>
                     <div class="h-1/2 w-full bg-[url('/public/img/ships/marine.jpg')] bg-cover bg-center">
 
@@ -151,7 +151,7 @@ ob_start();
                             <span class="block font-bold text-white text-2xl">PT.EBU-Cruise</span>
 
                         </h2>
-                        <img class="w-20 bg-white rounded-[50%]" src="public/img/logo/logo-EBU.png" alt="">
+                        <img class="w-20 bg-white rounded-[50%]" src="public/img/logo/logo-ebu.png" alt="">
                     </div>
                     <div class="h-1/2 w-full bg-[url('/public/img/ships/4.jpg')] bg-cover bg-center">
 
@@ -171,7 +171,7 @@ ob_start();
                             <span class="block font-bold text-primary text-2xl">PT.EBU-Marine</span>
 
                         </h2>
-                        <img class="w-20 bg-white rounded-[50%]" src="public/img/logo/logo-EBU.png" alt="">
+                        <img class="w-20 bg-white rounded-[50%]" src="public/img/logo/logo-ebu.png" alt="">
                     </div>
                     <div class="h-1/2 w-full bg-[url('/public/img/equinox/bridge.jpg')] bg-cover bg-center">
 
@@ -191,7 +191,7 @@ ob_start();
                             <span class="block font-bold text-white text-2xl">PT.Equinox Sentra Bahari</span>
 
                         </h2>
-                        <img class="w-20 rounded-[50%]" src="public/img/logo/logo-ESB.png" alt="">
+                        <img class="w-20 rounded-[50%]" src="public/img/logo/logo-esb.png" alt="">
                     </div>
                     <div class="h-1/2 w-full bg-[url('/public/img/offices/jakarta3.jpg')] bg-cover bg-center">
 
