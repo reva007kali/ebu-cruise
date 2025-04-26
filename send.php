@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Recipients
         $mail->setFrom('revaldy@itsallgoodman.site', 'EBU Cruise');
         $mail->addAddress('ivan@equinoxshipping.co.id', 'EBU Cruise'); // Add a recipient ivan@equinoxshipping.co.id
-        $mail->addReplyTo('revaldy@itsallgoodman.site', 'Flame Street'); // Add a reply-to address
+        $mail->addReplyTo('$email', '$name'); // Add a reply-to address
 
         // Email content
         $mail->isHTML(true);
@@ -42,7 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ";
 
         $mail->send();
-        echo "Your message has been sent successfully!";
+        header('Location: success.php'); // redirect after success
+        exit();
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }

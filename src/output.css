@@ -1631,6 +1631,9 @@
   .min-h-\[80vh\] {
     min-height: 80vh;
   }
+  .min-h-screen {
+    min-height: 100vh;
+  }
   .datatable-table {
     .datatable-wrapper & {
       width: 100%;
@@ -2350,6 +2353,12 @@
       background-color: color-mix(in oklab, var(--color-gray-900) 50%, transparent);
     }
   }
+  .bg-green-50 {
+    background-color: var(--color-green-50);
+  }
+  .bg-green-500 {
+    background-color: var(--color-green-500);
+  }
   .bg-primary {
     background-color: var(--color-primary);
   }
@@ -2893,6 +2902,9 @@
   .text-green-500 {
     color: var(--color-green-500);
   }
+  .text-green-600 {
+    color: var(--color-green-600);
+  }
   .text-primary {
     color: var(--color-primary);
   }
@@ -3103,6 +3115,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-200);
+      }
+    }
+  }
+  .hover\:bg-green-600 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-green-600);
       }
     }
   }
