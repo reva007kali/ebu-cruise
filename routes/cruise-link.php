@@ -94,6 +94,10 @@
         &copy; 2025 Equinox-Cruise. All rights reserved.
     </div>
 
+    <div>
+        p
+    </div>
+
 
 
 

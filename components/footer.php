@@ -8,7 +8,7 @@
         <div class="relative max-w-screen-xl px-8 py-16 mx-auto sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
                 <div>
-                    <img src="img/logo/logo2.jpeg" class="mr-5 h-10 sm:h-16 rounded-[50%]" alt="logo" />
+                    <img src="public/img/logo/logo2.jpeg" class="mr-5 h-10 sm:h-16 rounded-[50%]" alt="logo" />
                     <p class="max-w-xs mt-4 font-bold text-white text-3xl uppercase">
                         The Journey <span class="text-secondary">Begins</span><span class="text-third"> With Us</span>
                     </p>
@@ -94,12 +94,16 @@
                             <a class="hover:opacity-75" href> Accessibility </a>
                         </nav>
                     </div> -->
-                    <div class="relative mx-5 pb-20">
-                        <h1 class="text-third font-extrabold text-3xl">Address:</h1><br>
-                        <iframe class="rounded-xl h-[300px] border-4 border-third"
+                    <div class="relative mx-5 pb-10">
+                        <h1 class="text-third font-bold text-2xl">Jakarta Address:</h1><br>
+                        <iframe class="rounded-xl h-[200px] w-full border-4 border-third"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.9529738286124!2d106.8304915!3d-6.269915099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f23ac5e1dde1%3A0x652c3d4238f88266!2sPT%20Equinox%20Bahari%20Utama!5e0!3m2!1sen!2sid!4v1741564293512!5m2!1sen!2sid"
                             style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="relative mx-5 pb-20">
+                        <h1 class="text-third font-bold text-2xl">Bali Address:</h1><br>
+                        <iframe class="rounded-xl h-[200px] w-full border-4 border-third" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.246192988146!2d115.21343517473832!3d-8.66812108822497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24159b0db479f%3A0xa251e9b235fb7788!2sPT%20Equinox%20Bahari%20Utama%2C%20Bali%20Branch!5e0!3m2!1sen!2sid!4v1745657541748!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 

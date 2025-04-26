@@ -191,7 +191,7 @@ ob_start();
 
             <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
             <div class="relative">
-                <h1 class="text-4xl font-extrabold text-third">1.158+</h1>
+                <h1 class="text-4xl font-extrabold text-third">1,158+</h1>
                 <p class="text-white font-bold text-xl">Housekeeping</p>
             </div>
 
@@ -221,7 +221,7 @@ ob_start();
 
         <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
         <div class="relative">
-            <h1 class="text-4xl font-extrabold text-third">1.920</h1>
+            <h1 class="text-4xl font-extrabold text-third">1,920</h1>
             <p class="text-white font-bold text-xl">Culinary</p>
         </div>
 
@@ -232,7 +232,7 @@ ob_start();
 
         <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
         <div class="relative">
-            <h1 class="text-4xl font-extrabold text-third">1.712</h1>
+            <h1 class="text-4xl font-extrabold text-third">1,712</h1>
             <p class="text-white font-bold text-xl">F&B Services</p>
         </div>
 
@@ -243,7 +243,7 @@ ob_start();
 
         <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
         <div class="relative">
-            <h1 class="text-4xl font-extrabold text-third">1.571</h1>
+            <h1 class="text-4xl font-extrabold text-third">1,571</h1>
             <p class="text-white font-bold text-xl">Housekeeping</p>
         </div>
 
@@ -254,7 +254,7 @@ ob_start();
 
         <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
         <div class="relative">
-            <h1 class="text-4xl font-extrabold text-third">1.436</h1>
+            <h1 class="text-4xl font-extrabold text-third">1,436</h1>
             <p class="text-white font-bold text-xl">Others</p>
         </div>
 
@@ -602,22 +602,22 @@ ob_start();
         <div class="swiper office-slider swiper-container md:w-1/2">
             <div class="swiper-wrapper mb-10">
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/jakarta-office.png" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/jkt.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/jkt2.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/jakarta3.jpg" alt="">
                 </div>
             </div>
@@ -665,22 +665,22 @@ ob_start();
         <div class="swiper office-slider swiper-container md:w-1/2">
             <div class="swiper-wrapper mb-10">
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/bali1.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/bali2.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/bali3.jpg" alt="">
                 </div>
 
                 <!-- slide card white card -->
-                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px]">
+                <div class="swiper-slide rounded-xl overflow-hidden md:h-[500px] h-[200px]">
                     <img class="h-full object-cover" src="public/img/offices/bali4.jpg" alt="">
                 </div>
             </div>

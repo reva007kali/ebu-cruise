@@ -16,7 +16,8 @@ ob_start();
 <div class="container mx-auto px-6 py-16">
     <!-- Contact Information -->
     <div class="text-center mb-12">
-        <h1 class="md:text-5xl text-2xl font-bold text-primary">Get in touch with us for any inquiries or assistance.</h1>
+        <h1 class="md:text-5xl text-2xl font-bold text-primary">Get in touch with us for any inquiries or assistance.
+        </h1>
     </div>
 
     <div class="grid md:grid-cols-2 gap-1">
@@ -45,20 +46,23 @@ ob_start();
         </div>
 
         <!-- Contact Form -->
+        <!-- Contact Form -->
         <div class="bg-primary p-8 rounded-lg shadow-md">
             <h2 class="text-4xl font-semibold text-white">For Business Partnership</h2>
-            <form class="mt-4 space-y-4">
-                <input type="text" placeholder="Full Name"
+            <form class="mt-4 space-y-4" method="POST" action="send.php">
+                <input type="text" name="name" placeholder="Full Name"
+                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary" required>
+                <input type="email" name="email" placeholder="Email Address"
+                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary" required>
+                <input type="text" name="phone" placeholder="Phone Number (Optional)"
                     class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary">
-                <input type="email" placeholder="Email Address"
-                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary">
-                <input type="text" placeholder="Phone Number (Optional)"
-                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary">
-                <textarea placeholder="Your Message" rows="4"
-                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary"></textarea>
-                <button class="w-full bg-third text-white py-3 rounded-md hover:bg-secondary">Send Message</button>
+                <textarea name="message" placeholder="Your Message" rows="4"
+                    class="w-full p-3 border rounded-md focus:ring-primary focus:border-primary" required></textarea>
+                <button type="submit" class="w-full bg-third text-white py-3 rounded-md hover:bg-secondary">Send
+                    Message</button>
             </form>
         </div>
+
     </div>
 
     <!-- Social Media Links -->
