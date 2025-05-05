@@ -93,7 +93,7 @@ ob_start();
                         d="M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2ZM8 18H5V9H8V18ZM6.5 7.5C5.67 7.5 5 6.83 5 6C5 5.17 5.67 4.5 6.5 4.5C7.33 4.5 8 5.17 8 6C8 6.83 7.33 7.5 6.5 7.5ZM19 18H16V13.5C16 12.67 15.33 12 14.5 12C13.67 12 13 12.67 13 13.5V18H10V9H13V10.11C13.54 9.42 14.42 9 15.5 9C17.43 9 19 10.57 19 12.5V18Z" />
                 </svg>
             </a>
-            <a class="hover:opacity-75" href="https://www.tiktok.com/@equinoxshippinggroup" target="_blank"
+            <a class="hover:opacity-75" href="https://www.tiktok.com/@ebu.cruise" target="_blank"
                 rel="noreferrer">
                 <span class="sr-only"> Tiktok </span>
                 <svg width="30" height="30" viewBox="0 0 24 24" class="fill-primary" xmlns="http://www.w3.org/2000/svg">

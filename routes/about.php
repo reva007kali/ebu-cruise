@@ -289,7 +289,7 @@ ob_start();
         <div
             class="bod-card bg-white relative flex items-end rounded-xl overflow-hidden md:w-72 box-shadow-sm w-64 h-96 m-auto">
             <img class="bod-img w-full h-full absolute top-0 left-0 bottom-0 object-cover"
-                src="public/img/team/toar_.png" alt="">
+                src="public/img/team/toar.jpg" alt="">
             <div class="w-full h-1/2 absolute left-0 bottom-0 bg-gradient-to-t from-primary z-0"></div>
             <div class="relative text-white p-4">
                 <h1 class="text-xl font-bold">Toar B Sumanti</h1>

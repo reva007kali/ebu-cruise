@@ -1,8 +1,51 @@
 <footer>
     <!-- component -->
+    <!-- Aware Banner Image -->
     <div>
-        <img class="rounded-xl mx-auto max-w-[90vw] mb-6" src="public/img/assets/aware-banner2.png" alt="">
+        <img id="awareComplainBanner" class="rounded-xl mx-auto max-w-[90vw] mb-6 cursor-pointer"
+            src="public/img/assets/aware-banner2.png?v3" alt="Aware Banner for Complaint and Fraud Report" />
     </div>
+
+    <!-- Modal -->
+    <div id="awareComplainModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50">
+        <div class="bg-white p-6 rounded-xl max-w-md w-full relative">
+            <button id="awareComplainClose"
+                class="absolute top-2 right-2 text-gray-500 hover:text-black">&times;</button>
+            <h2 class="text-lg font-bold mb-4">Report Fraud or Complaint</h2>
+            <p><strong>Email address:</strong> <a href="mailto:tellus@wetrust.id"
+                    class="text-blue-600 underline">tellus@wetrust.id</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/6281113309899" target="_blank"
+                    class="text-green-600 underline">+62811 1330 9899</a></p>
+            <p><strong>Link:</strong> <a href="https://equinoxshipping.co.id/complaint" target="_blank"
+                    class="text-blue-600 underline">https://equinoxshipping.co.id/complaint</a></p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        const awareBanner = document.getElementById('awareComplainBanner');
+        const awareModal = document.getElementById('awareComplainModal');
+        const awareClose = document.getElementById('awareComplainClose');
+
+        awareBanner.addEventListener('click', () => {
+            awareModal.classList.remove('hidden');
+            awareModal.classList.add('flex');
+        });
+
+        awareClose.addEventListener('click', () => {
+            awareModal.classList.add('hidden');
+        });
+
+        awareModal.addEventListener('click', (e) => {
+            if (e.target === awareModal) {
+                awareModal.classList.add('hidden');
+            }
+        });
+    </script>
+
+
+
+
     <footer class="relative bg-[url(/public/img/offices/bali1.jpg)] bg-cover bg-no-repeat bg-center">
         <div class="absolute top-0 left-0 w-full h-full bg-primary opacity-[.8]"></div>
         <div class="relative max-w-screen-xl px-8 py-16 mx-auto sm:px-6 lg:px-8">
@@ -47,7 +90,7 @@
                                     fill="currentColor" />
                             </svg>
                         </a>
-                        <a class="hover:opacity-75" href="https://www.tiktok.com/@equinoxshippinggroup" target="_blank"
+                        <a class="hover:opacity-75" href="https://www.tiktok.com/@ebu.cruise" target="_blank"
                             rel="noreferrer">
                             <span class="sr-only"> Tiktok </span>
                             <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
@@ -103,7 +146,10 @@
                     </div>
                     <div class="relative mx-5 pb-20">
                         <h1 class="text-third font-bold text-2xl">Bali Address:</h1><br>
-                        <iframe class="rounded-xl h-[200px] w-full border-4 border-third" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.246192988146!2d115.21343517473832!3d-8.66812108822497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24159b0db479f%3A0xa251e9b235fb7788!2sPT%20Equinox%20Bahari%20Utama%2C%20Bali%20Branch!5e0!3m2!1sen!2sid!4v1745657541748!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="rounded-xl h-[200px] w-full border-4 border-third"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.246192988146!2d115.21343517473832!3d-8.66812108822497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24159b0db479f%3A0xa251e9b235fb7788!2sPT%20Equinox%20Bahari%20Utama%2C%20Bali%20Branch!5e0!3m2!1sen!2sid!4v1745657541748!5m2!1sen!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 

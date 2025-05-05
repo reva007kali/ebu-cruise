@@ -9,9 +9,9 @@
 <body class="bg-green-50 min-h-screen flex flex-col justify-center items-center">
 
     <div class="bg-white p-8 rounded-xl shadow-md text-center">
-        <h1 class="text-4xl font-bold text-green-600 mb-4">🎉 Message Sent Successfully!</h1>
+        <h1 class="text-4xl font-bold text-blue-900 mb-4">🎉 Message Sent Successfully!</h1>
         <p class="text-gray-600 mb-6">Thank you for reaching out to us. We'll get back to you soon.</p>
-        <a href="/contact" class="inline-block px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition">
+        <a href="/contact" class="inline-block px-6 py-3 bg-blue-900 text-white font-semibold rounded-lg hover:bg-orange-200 transition">
             Go Back to Contact
         </a>
     </div>

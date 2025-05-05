@@ -29,11 +29,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Recipients
         $mail->setFrom('revaldy@itsallgoodman.site', 'EBU Cruise');
         $mail->addAddress('ivan@equinoxshipping.co.id', 'EBU Cruise'); // Add a recipient ivan@equinoxshipping.co.id
-        $mail->addReplyTo('$email', '$name'); // Add a reply-to address
+        $mail->addReplyTo($email, $name); // Add a reply-to address
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'New Contact Form Submission';
+        $mail->Subject = 'EBU CRUISE - BUSINESS PARTNERSHIP SUBMISSION FORM';
         $mail->Body = "
             <h1>Contact Form Submission</h1>
             <p><strong>Name:</strong> $name</p>
